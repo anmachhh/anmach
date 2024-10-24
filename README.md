@@ -101,7 +101,7 @@ public class ParkWalk {
         int X = scanner.nextInt();
         
         System.out.print("Введите длины дорожек A, B, C, D: ");
-        Integer[] lengths = new Integer[4];
+        int[] lengths = new int[4];
         for (int i = 0; i < 4; i++) {
             lengths[i] = scanner.nextInt();
         }
