@@ -38,18 +38,18 @@
 
 ### 3. Выбор структуры данных
 
-В коде используются как примитивные типы данных (int), так и объектные типы (Integer и Scanner).
+В коде используются примитивные типы данных (int).
 
 |             | название переменной | Тип (в Java) | 
 |-------------|---------------------|--------------|
 | X (Число 1) | `X`                 | `Int`        |
-| A (Число 2) | `A`                 | `Scanner`    | 
-| B (Число 3) | `B`                 | `Scanner`    |
-| C (Число 4) | `C`                 | `Scanner`    | 
-| D (Число 5) | `D`                 | `Scanner`    |
+| A (Число 2) | `A`                 | `Int`        | 
+| B (Число 3) | `B`                 | `Int`        |
+| C (Число 4) | `C`                 | `Int`        | 
+| D (Число 5) | `D`                 | `Int`        |
 |totalDistance| `totalDistance`     | `Int`        | 
 |count        | `count`             | `Int`        | 
-|lengths      | `lengths`           | `Integer`    | 
+|lengths      | `lengths`           | `Int`        | 
 
 ### 4. Алгоритм
 
@@ -106,7 +106,7 @@ public class ParkWalk {
             lengths[i] = scanner.nextInt();
         }
 
-        // Сортировка дорожек по убыванию Arrays.sort(lengths, Collections.reverseOrder());
+        // Сортировка дорожек по убыванию 
 
         int totalDistance = 0;
         int count = 0;
